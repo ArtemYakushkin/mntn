@@ -1,0 +1,138 @@
+@media (max-width: 1200px) {
+    .header {
+        padding-bottom: 250px;
+    }
+
+    .header__title {
+        font-size: 68px;
+    }
+
+    .article__content {
+        padding-left: 50px;
+        max-width: 50%;
+    }
+
+    .article__content::before {
+        width: 140px;
+        height: 140px;
+        font-size: 140px;
+    }
+
+    .article__img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .footer__right {
+        gap: 112px;
+    }
+}
+
+@media (max-width: 920px) {
+    .footer__wrapper {
+        flex-direction: column-reverse;
+        /* align-items: center; */
+        gap: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .header {
+        padding-bottom: 200px;
+    }
+
+    .header__nav,
+    .header__login {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .mobile__menu-active {
+        display: flex;
+    }
+
+    .header__top {
+        margin-bottom: 90px;
+    }
+
+
+
+    .header__category {
+        font-size: 14px;
+        padding-left: 62px;
+    }
+
+    .header__category::before {
+        width: 42px;
+    }
+
+    .article__title {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 720px) {
+    .header__title {
+        font-size: 48px;
+    }
+
+    .article {
+        column-gap: 0;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 200px;
+    }
+
+    .article:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .article__content {
+        max-width: 100%;
+    }
+
+    .article__img {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 560px) {
+    .footer__right {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header__title {
+        font-size: 38px;
+    }
+
+    .header__category {
+        font-size: 12px;
+    }
+
+    .article {
+        margin-bottom: 100px;
+    }
+
+    .article__subtitle {
+        font-size: 12px;
+        padding-left: 58px;
+    }
+
+    .article__subtitle::before {
+        width: 42px;
+    }
+
+    .article__title {
+        font-size: 34px;
+    }
+}
